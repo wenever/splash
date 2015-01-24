@@ -6,11 +6,35 @@ html{
   -o-background-size:	   cover;
   background-size: 		   cover;
   color: white;
+  min-height: 350px;
 }
 
 #box{
   background-color: rgba(0, 0, 0, 0.3);
-  margin-top: 100px;
-  margin-left: 90px;
-  width: 350px;
+  margin: 200px auto;
+  padding: 50px 50px;
+  text-align: center;
+  max-width: 25%;
+  max-height: 30%;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+@media (min-width: 700px){
+	h1{
+	  font-size: 300%;
+	}
+
+	p{
+	  font-size: 125%; 
+	}
+}
+
+@media (min-width: 2100px){
+	h1{
+	  font-size: 400%;
+	}
+
+	p{
+	  font-size: 200%; 
+	}
 }
