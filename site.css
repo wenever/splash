@@ -11,6 +11,11 @@ html{
   padding: 0px 0px;
 }
 
+@font-face{
+  font-family: Walkway Regular;
+  src: url(/Walkway.ttf);	
+}
+
 #box{
   background-color: rgba(0, 0, 0, 0.3);
   margin: 15% auto;
@@ -18,7 +23,11 @@ html{
   text-align: center;
   max-width: 25%;
   max-height: 30%;
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: Walkway Regular, Arial, sans-serif;
+}
+
+.icon{
+  margin: .3em;
 }
 
 @media (min-width: 700px){
