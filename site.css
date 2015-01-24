@@ -6,7 +6,9 @@ html{
   -o-background-size:	   cover;
   background-size: 		   cover;
   color: white;
-  min-height: 350px;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 0px 0px;
 }
 
 #box{
